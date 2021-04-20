@@ -2,3 +2,13 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# mac files
+.DS_Store
+
+# README
+README.html
+
+# knitted files
+docs/**.html
+

@@ -1,0 +1,69 @@
+---
+title: "eucalyptus"
+author: "___"
+date: "4/2/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+SciViews::R
+```
+
+# Introduction
+
+Les gardes forestiers ont plusieurs missions dont la gestion des ressources forestières. Ils vont sélectionner judicieusement les arbres à abattre dans les parcelles qu'ils administrent. Afin d'estimer le volume de bois attendu, ils se basent généralement sur la hauteur de l'arbre et sa circonférence. On peut simplifier le tronc d'un arbre à une cylindre qui va donc suivre la formule 
+
+$$v = \pi r^2h$$
+Le volume ($v$ en $m^3$) est la multiplication de l'aire de la base ($\pi r^2$ en $m^2$) par la hauteur ($h$ en $m$).
+
+La mesure de la hauteur d'un arbre peut être déterminée grâce à un dendromètre. Cet outil utilise un angle entre le sol et le sommet de l'arbre pour déterminer sa hauteur. Pour déterminer cet angle, il faut une vue dégagée sur la cime de l'arbre et assez de recul pour prendre une mesure précise de l'angle. Il y a donc des situations où il n'est pas possible de déterminer la hauteur de l'arbre.
+
+Des gardes forestiers ont réalisé une série de mesures de hauteurs et de circonférence de plus de 1400 eucalyptus. Cet arbre est très utilisé pour obtenir de la pâte à papier. Ils souhaitent savoir si une formule pourrait être déterminée pour prédire la hauteur de l'arbre et donc son volume sur base de la circonférence de l'arbre à 1m50 du sol. La mesure de la circonférence étant une mesure simple à obtenir.
+
+La première étape de cette recherche est de déterminer si une corrélation significative est observée entre la circonférence et la hauteur des arbres.
+
+# Analyses
+
+<!---- Consignes
+Importez le jeu de données  eucalyptus.
+--->
+
+```{r import}
+eucalyptus <- 
+```
+
+
+<!--- Consignes
+Utilisez la fonction skim() du package `skimr`. Décrivez les données en 2 à 4 lignes.
+--->
+
+```{r skim}
+
+```
+
+<!--- Consignes
+Ajoutez des labels et des unités aux variables utiles. La variable `ht` représente la hauteur en mètre des arbres. La variable circ représente la circonférence en centimètre.
+--->
+
+```{r labelise}
+
+```
+
+<!--- Consignes
+Réalisez un graphique adéquat pour représenter la hauteur des arbres en fonction de la circonférence.
+--->
+
+```{r plot}
+correlation(eucalyptus$ht, eucalyptus$circ)
+```
+
+<!--- Consignes
+Réalisez un test de corrélation adéquat pour mettre en avant la corrélation entre la variable hauteur et la variable circonférence. Décrivez le résultat de votre test. N'oubliez pas de vous fixer la valeur du seuil alpha avant de réaliser votre test.
+--->
+
+```{r corr}
+
+```
+
+

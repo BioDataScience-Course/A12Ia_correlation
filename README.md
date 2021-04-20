@@ -1,16 +1,25 @@
-# Mise en pratique du Module 12 Corrélation
+# Corrélation et critiques statistiques
 
 ## Avant-propos
 
-Il est possible que ce document évolue au cours du temps. N'hésitez pas à vérifier le lien suivant afin de voir les modifications dans les consignes : <https://github.com/BioDataScience-Course/sdd1_module12>
+Les consignes reprises dans ce document, ainsi que dans les différents fichiers sont susceptibles d'évoluer. N'hésitez pas à vérifier le lien suivant afin de voir si des modifications n'y ont pas été apportées : <https://github.com/BioDataScience-Course/A12Ia_correlation>.
 
-**Ce projet est un projet court et cadré.** 
+Avant d'aborder ce projet, assurez-vous d'avoir bien compris le contenu du [module 12](https://wp.sciviews.org/sdd-umons/?iframe=wp.sciviews.org/sdd-umons-2020/correlation.html) du cours de SDDI.
 
 ## Objectif
 
-- Au sein du fichier `anscombe.Rmd`, complétez les zones manquantes.
+Ce projet est un projet **court** et **cadré**. Il doit être terminé à la fin de de ce module 12. Ce dernier permettra de démontrer que vous avez acquis les compétences suivantes :
 
-- Créez une présentation de type dia avec R. Le type de présentation est libre. Utilisez le jeu de données `biometry` du package `BioDataScience`. Vous devez avoir au moins 3 slides. Ce document doit se nommer `presentation`
+- Comprendre les différents niveaux d’association de deux variables numériques et maitriser les test de corrélation associés.
 
-- Au sein du fichier `critique.Rmd`. Choissisez une image proposée dnas la section Critique statistique et critiquez cette dernière.
+- Développer son esprit critique face à des analyses statistiques et des graphiques.
 
+## Consinges
+
+- Au sein du fichier `eucalyptus.Rmd` qui se trouve dans le dossier `docs`, complétez les zones manquantes.
+
+- Au sein du fichier `critique.Rmd` qui se trouve dans le dossier `docs`, choisissez une image proposée dans la section `Critique statistique` et critiquez cette dernière.
+
+## Notes
+
+N'oubliez pas que **le plagiat est interdit** mais que la collaboration est encouragée.
