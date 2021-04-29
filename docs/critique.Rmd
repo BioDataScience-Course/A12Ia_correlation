@@ -1,29 +1,20 @@
 ---
 title: "Critique statistique"
 author: '...'
-date: "3/17/2020"
+date: "2020-03-17"
 output: html_document
 ---
 
-
 # Description de la situation 
 
-<!--- Consignes
-Dans cette section vous devez choisir le graphique que vous allez traiter et le décrire. 
-Vous pouvez employez un graphique dans la section [Critique statistique](http://biodatascience-course.sciviews.org/sdd-umons/critique-statistique.html) ou bien en choisir un autre. 
---->
+<!-- Choisissez un graphique à critiquer. Vous pouvez employez un graphique dans la section [Critique statistique](http://biodatascience-course.sciviews.org/sdd-umons/critique-statistique.html) ou bien en choisir un autre ailleurs. -->
 
 
+# Mise en avant des éléments incorrects
+
+<!-- Expliquer toutes les erreurs trouvées dans le graphique. -->
 
 
-# Mise en avant des éléments incorrectes.
+# Idées d'améliorations
 
-<!--- Consignes
-Dans cette section vous devez expliquer toutes les erreurs vues.
---->
-
-# Idée d'amélioration 
-
-<!--- Consignes
-Cette section doit contenir vos propositions d'amélioration. 
---->
+<!-- Indiquez vos propositions pour améliorer ce graphique. -->
