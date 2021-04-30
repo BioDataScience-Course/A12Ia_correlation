@@ -7,7 +7,7 @@ output: html_document
 
 # Description de la situation 
 
-<!-- Choisissez un graphique à critiquer. Vous pouvez employez un graphique dans la section [Critique statistique](http://biodatascience-course.sciviews.org/sdd-umons/critique-statistique.html) ou bien en choisir un autre ailleurs. -->
+<!-- Choisissez un graphique à critiquer. Vous pouvez employez un graphique dans la section [Critique statistique](https://wp.sciviews.org/sdd-umons/?iframe=wp.sciviews.org/sdd-umons-2020/critique-statistique.html) ou bien en choisir un autre ailleurs. -->
 
 
 # Mise en avant des éléments incorrects
