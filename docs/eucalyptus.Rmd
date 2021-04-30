@@ -47,7 +47,7 @@ eucalyptus <-
 <!-- Réalisez un graphique adéquat pour représenter la hauteur des arbres en fonction de la circonférence. -->
 
 ```{r plot}
-correlation(eucalyptus$ht, eucalyptus$circ)
+
 ```
 
 <!-- Réalisez un test de corrélation adéquat pour mettre en avant la corrélation entre la variable hauteur et la variable circonférence. Décrivez le résultat de votre test. N'oubliez pas de vous fixer la valeur du seuil alpha avant de réaliser votre test. -->
