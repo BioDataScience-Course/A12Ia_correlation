@@ -1,20 +1,20 @@
 ---
 title: "Critique statistique"
-author: '...'
-date: "2020-03-17"
+author: '___'
+date: "___"
 output: html_document
 ---
 
 # Description de la situation 
 
-<!-- Choisissez un graphique à critiquer. Vous pouvez employez un graphique dans la section [Critique statistique](https://wp.sciviews.org/sdd-umons/?iframe=wp.sciviews.org/sdd-umons-2020/critique-statistique.html) ou bien en choisir un autre ailleurs. -->
+<!--% Choisissez un graphique à critiquer. Vous pouvez employez un graphique dans la section [Critique statistique](https://wp.sciviews.org/sdd-umons/?iframe=wp.sciviews.org/sdd-umons-2021/critique-statistique.html) ou bien en choisir un autre ailleurs. -->
 
 
 # Mise en avant des éléments incorrects
 
-<!-- Expliquer toutes les erreurs trouvées dans le graphique. -->
+<!--% Expliquer toutes les erreurs trouvées dans le graphique. -->
 
 
 # Idées d'améliorations
 
-<!-- Indiquez vos propositions pour améliorer ce graphique. -->
+<!--% Indiquez vos propositions pour améliorer ce graphique. -->
