@@ -12,7 +12,7 @@ SciViews::R
 
 # Introduction
 
-Les gardes forestiers ont plusieurs missions dont la gestion des ressources naturelles dans la forêt. Ils vont sélectionner judicieusement les arbres à abattre dans les parcelles qu'ils administrent. Afin d'estimer le volume de bois attendu, ils se basent généralement sur la hauteur de l'arbre et sa circonférence. On peut simplifier le tronc d'un arbre à une cylindre qui va donc suivre la formule\ :
+Les gardes forestiers ont plusieurs missions dont la gestion des ressources naturelles dans la forêt. Ils vont sélectionner judicieusement les arbres à abattre dans les parcelles qu'ils administrent. Afin d'estimer le volume de bois attendu, ils se basent généralement sur la hauteur de l'arbre et sa circonférence. On peut simplifier le tronc d'un arbre à une cylindre qui va donc suivre la formule :
 
 $$v = \pi r^2 h$$
 
@@ -22,14 +22,14 @@ La mesure de la hauteur d'un arbre peut être déterminée grâce à un dendrom�
 
 Des gardes forestiers ont réalisé une série de mesures de hauteurs et de circonférences de plus de 1400 eucalyptus. Cet arbre est très utilisé pour faire de la pâte à papier. Ils souhaitent savoir si un modèle pourrait être déterminé pour prédire la hauteur de l'arbre et donc son volume sur base de la circonférence de l'arbre à 1,50m du sol. La mesure de la circonférence étant une mesure simple à obtenir.
 
-La première étape de cette recherche est de déterminer si une corrélation significative est observée entre la circonférence et la hauteur de ces arbres. C'est votre travail\ !
+La première étape de cette recherche est de déterminer si une corrélation significative est observée entre la circonférence et la hauteur de ces arbres. C'est votre travail !
 
 # Analyses
 
 <!--% Importez le jeu de données `eucalyptus` qui se trouve dans le fichier eucalyptus.csv dans le dossier data. -->
 
 ```{r import}
-eucalyptus <- 
+eucalyptus <- ___
 ```
 
 <!--% Utilisez la fonction `skim()` du package {skimr} et ensuite, décrivez les données en 2 à 3 phrases en dessous. -->
@@ -38,20 +38,36 @@ eucalyptus <-
 
 ```
 
-<!--% Ajoutez des labels et des unités aux variables. La variable `ht` représente la hauteur en mètre des arbres. La variable `circ` représente la circonférence en centimètre. -->
+<!--% Ajoutez des labels et des unités aux variables. La variable `ht` représente la hauteur en mètre des arbres. La variable `circ` représente la circonférence en centimètre. Vous enregistrerez le jeu de données labellisé sous `eucalyptus` obligatoirement. -->
 
 ```{r labelise}
+eucalyptus %>.%
+  ___ %->%
+  eucalyptus
 
+# Ne modifiez pas ci-dessous
+write$rds(eucalyptus, here::here("tests", "eucalyptus.rds"), compress = "xz")
 ```
 
-<!--% Réalisez un graphique adéquat pour représenter la hauteur des arbres en fonction de la circonférence. -->
+<!--% Réalisez un graphique adéquat pour représenter la hauteur des arbres en fonction de la circonférence. Le graphique doit être dans `euc_plot`. Interprétez ce graphique en 2 phrases maximum. -->
 
 ```{r plot}
+euc_plot <- chart(___) +
+  ___
+euc_plot
 
+# Ne modifiez pas ci-dessous
+write$rds(euc_plot, here::here("tests", "euc_plot.rds"), compress = "xz")
 ```
 
-<!--% Effectuez un test d'hypothèse pour mettre en avant la corrélation entre la hauteur et la circonférence des eucalyptus. Interprétez votre test. N'oubliez pas de fixer la valeur du seuil alpha avant de réaliser votre test. -->
+<!--% Effectuez un test d'hypothèse pour mettre en avant la corrélation entre la hauteur et la circonférence des eucalyptus. Interprétez votre test. N'oubliez pas de fixer la valeur du seuil alpha avant de réaliser votre test et spécifiez les hypothèses nulles et alternatives. Le résultat du test doit être placé dans un objet `euc_corr` obligatoirement. -->
 
 ```{r corr}
+euc_corr <- ___(___)
+euc_corr
 
+# Ne modifiez pas ci-dessous
+write$rds(euc_corr, here::here("tests", "euc_corr.rds"), compress = "xz")
 ```
+
+<!-- Interprétez le test d'hypothèse en 2 ou 3 phrases (interprétation statistique et biologique). -->

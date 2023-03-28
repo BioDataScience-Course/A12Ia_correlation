@@ -5,16 +5,14 @@ date: "___"
 output: html_document
 ---
 
-# Description de la situation 
+# Description de la situation
 
-<!--% Choisissez un graphique à critiquer. Vous pouvez employez un graphique dans la section [Critique statistique](https://wp.sciviews.org/sdd-umons/?iframe=wp.sciviews.org/sdd-umons-2021/critique-statistique.html) ou bien en choisir un autre ailleurs. -->
-
+<!--% Choisissez une situation à critiquer. Vous pouvez employez un graphique ou une situation dans la section [Critique statistique](https://wp.sciviews.org/sdd-umons/?iframe=wp.sciviews.org/sdd-umons-2022/critique-statistique.html) ou bien en choisir un autre ailleurs. -->
 
 # Mise en avant des éléments incorrects
 
-<!--% Expliquer toutes les erreurs trouvées dans le graphique. -->
-
+<!--% Expliquer toutes les erreurs trouvées. -->
 
 # Idées d'améliorations
 
-<!--% Indiquez vos propositions pour améliorer ce graphique. -->
+<!--% Indiquez ce que vous feriez pour corriger ces erreurs. -->
