@@ -41,9 +41,7 @@ eucalyptus <- ___
 <!--% Ajoutez des labels et des unités aux variables. La variable `ht` représente la hauteur en mètre des arbres. La variable `circ` représente la circonférence en centimètre. Vous enregistrerez le jeu de données labellisé sous `eucalyptus` obligatoirement. -->
 
 ```{r labelise}
-eucalyptus %>.%
-  ___ %->%
-  eucalyptus
+eucalyptus %<-% ___
 
 # Ne modifiez pas ci-dessous
 write$rds(eucalyptus, here::here("tests", "eucalyptus.rds"), compress = "xz")
