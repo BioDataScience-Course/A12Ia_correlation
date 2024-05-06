@@ -15,7 +15,7 @@ editor_options:
 
 # Description de la situation
 
-<!--% Choisissez une situation à critiquer. Vous pouvez employez un graphique ou une situation dans la section [Critique statistique](https://wp.sciviews.org/sdd-umons/?iframe=wp.sciviews.org/sdd-umons-2022/critique-statistique.html) ou bien en choisir un autre ailleurs. -->
+<!--% Choisissez une situation à critiquer. Vous pouvez employer un graphique ou une situation dans la section [Critique statistique](https://wp.sciviews.org/sdd-umons/?iframe=wp.sciviews.org/sdd-umons-2022/critique-statistique.html) ou bien en choisir un autre ailleurs. -->
 
 # Mise en avant des éléments incorrects
 

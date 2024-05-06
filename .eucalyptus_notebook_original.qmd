@@ -106,7 +106,7 @@ select_answer(r"-{
 
 La corrélation de Pearson entre hauteur et circonférence vaut :
 
-<!--% Calculez la corrélation linéaire de Pearson entre la hauteur et la circonférence des arbres ne utilisant la fonction `cor()`. -->
+<!--% Calculez la corrélation linéaire de Pearson entre la hauteur et la circonférence des arbres en utilisant la fonction `cor()`. -->
 
 ```{r corrp, record='RN'}
 ___(___)
@@ -114,7 +114,7 @@ ___(___)
 
 Le coefficient de corrélation de Spearman entre les mêmes variables est :
 
-<!--% Calculez la corrélation non linéaire de Spearman entre la hauteur et la circonférence des arbres ne utilisant la fonction `cor()` pour comparaison. -->
+<!--% Calculez la corrélation non linéaire de Spearman entre la hauteur et la circonférence des arbres en utilisant la fonction `cor()` pour comparaison. -->
 
 ```{r corrs, record='RN'}
 ___(___)
