@@ -1,8 +1,16 @@
 ---
 title: "Critique statistique"
 author: '___'
-date: "___"
-output: html_document
+date: "`r Sys.Date()`"
+format:
+  html:
+    code-fold: true
+    code-tools: true
+    toc: true
+editor: visual
+lang: fr
+editor_options: 
+  chunk_output_type: inline
 ---
 
 # Description de la situation
